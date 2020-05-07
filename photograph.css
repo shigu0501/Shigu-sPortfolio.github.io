@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #808080;
+  font-family: serif;
+  text-align: center;
+  font-size: 0.7rem;
+  background-color: #F8F8FF;
+}
+
+.heading {
+  margin: 15px 362px;
+  float: left;
+  font-size: 0.8rem;
+}
+
+.pd-pic {
+width: 100%;
+height: 250vh;
+margin: auto 0;
+border-bottom: 4px #999;
+}
+
+.pd-works img {
+  margin-bottom: 15px;
+  display: block;
+  margin: 0 auto;
+}
+
+.border {
+  float: right;
+  margin: 10px 362px;
+  width: 250px;
+  border-top: 0.7px solid gray;
+}
+
+.pd-works p {
+  margin: 10px 362px;
+  margin-bottom: 100px;
+  text-align: right;
+}
+
+.headings {
+  text-align: right;
+  margin: 15px 35px;
+}
+
+
+.button {
+  text-align: right;
+  text-decoration: none;
+  margin: 10px;
+  padding-left: 15px;
+  letter-spacing: 0.5px;
+  font-size: 0.7rem;
+  color: #808080;
+}
+
+.button:hover {
+  opacity: 0.6;
+}
+
+.button-gray {
+  color: #808080;
+}
+
+
+#page_top{
+  width: 90px;
+  height: 90px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 90px;
+  height: 90px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: #3f98ef;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -40px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+#page_top a::after{
+  content: 'PAGE TOP';
+  font-size: 13px;
+  color: #fff;
+  position: absolute;
+  top: 45px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+  color: #3f98ef;
+}
