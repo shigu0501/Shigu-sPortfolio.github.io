@@ -94,3 +94,66 @@ margin-right: 19px;
   padding: 21px 0;
   display: none;
 }
+
+/* スマートフォン向けレイアウト */
+@media screen and (max-width: 750px) {
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  position: relative;
+  text-align: left;
+  background-color: #000;
+  width: 100%;
+}
+
+.site-title {
+  float: left;
+}
+
+.site-title img {
+  position: absolute;
+  top: 50px;
+  left: 15px;
+}
+
+.abouts {
+  text-align: center;
+}
+
+.about {
+  text-align: center;
+}
+
+.site-text {
+  font-size: 3rem;
+}
+
+header {
+  display: none;
+  }
+
+.menu-icon {
+  display: block;
+  }
+
+}
+
+/* ボタン全体 */
+.flowbtn10{
+display:inline-block; 
+font-size:35px;
+text-decoration:none;
+transition:.5s;
+color:#444; 
+}
+/* Twitterマウスホバー時 */
+.flowbtn10 .fa-twitter:hover{
+color:#55acee;
+}
+/* Instagramマウスホバー時 */
+.flowbtn10 .fa-instagram:hover{
+color:#c6529a;
+}
