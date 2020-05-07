@@ -1,0 +1,45 @@
+/* スマートフォン向けレイアウト */
+@media screen and (max-width: 750px) {
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  position: relative;
+  text-align: left;
+  background-color: #000;
+  width: 100%;
+}
+
+.site-title {
+  float: left;
+}
+
+.site-title img {
+  position: absolute;
+  top: 50px;
+  left: 15px;
+}
+
+.abouts {
+  text-align: center;
+}
+
+.about {
+  text-align: center;
+}
+
+.site-text {
+  font-size: 3rem;
+}
+
+header {
+  display: none;
+  }
+
+.menu-icon {
+  display: block;
+  }
+
+}
