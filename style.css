@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #808080;
+  font: 2rem caption;
+  font-size: 0.7rem;
+  background-size: cover;
+  background-color: #000;
+  padding: 30px 100px;
+  height: 110vh;
+  width: 100%;
+}
+
+header {
+margin-right: 19px;
+}
+
+.site-title img {
+  position: absolute;
+  bottom: 0;
+  left: 150px;
+  text-align: left;
+}
+
+.site-title h1 {
+  position: absolute;
+  bottom: 340px;
+  right: 200px;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  text-align: right;
+  font: 2rem caption;
+}
+
+.site-title p {
+  padding-top: 10px;
+  font: 0.7rem caption;
+  position: absolute;
+  bottom: 330px;
+  right: 217px;
+  opacity: 0.3;
+}
+
+.headings {
+  text-align: right;
+  margin: 15px 35px;
+}
+
+.button {
+  float: right;
+  margin-right: -25px;
+}
+
+.button a {
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.button a:hover {
+  opacity: 0.6;
+}
+
+
+.abouts {
+  line-height: 2;
+   padding-top: 10px;
+  font: 0.7rem caption;
+  position: absolute;
+  bottom: 210px;
+  right: 336px;
+  line-height: 3;
+}
+
+.about {
+  padding-top: 10px;
+  font: 0.7rem caption;
+  position: absolute;
+  bottom: 130px;
+  right: 155px;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
