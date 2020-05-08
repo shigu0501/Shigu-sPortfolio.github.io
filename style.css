@@ -70,7 +70,6 @@ header {
 .button {
   float: right;
   margin-right: -25px;
-  display: none;
 }
 
 .button a {
