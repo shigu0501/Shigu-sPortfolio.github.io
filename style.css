@@ -99,11 +99,8 @@ body {
   font: 0.6rem caption;
 }
 
-..site-titles {
-  position: relative;
-  width: 420;
-  height: 540;
-  text-align: left;
+.intro {
+  width: 100%;
 }
 
 header {
