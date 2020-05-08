@@ -97,6 +97,7 @@ header {
 
 body {
   font: 0.6rem caption;
+  padding-left: 10px;
 }
 
 .intro {
