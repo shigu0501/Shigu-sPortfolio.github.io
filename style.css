@@ -16,6 +16,27 @@ header {
   margin-right: 10px;
 }
 
+.button {
+  float: right;
+  margin-right: -25px;
+}
+
+
+.button a {
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.button a:hover {
+  opacity: 0.6;
+}
+
 .menu-icon {
   color: white;
   float: right;
@@ -25,8 +46,8 @@ header {
 }
 
 .site-title {
+  margin-right: 300px;
   position: relative;
-  margin: 20px 10px;
   max-width: 1170px
 }
 
@@ -76,27 +97,6 @@ header {
   list-style: none;
 }
 
-.button {
-  float: right;
-  margin-right: -25px;
-}
-
-
-.button a {
-  cursor: pointer;
-  text-decoration: none;
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  display: block;
-  float: left;
-  transition: all 0.5s;
-}
-
-.button a:hover {
-  opacity: 0.6;
-}
-
 /* スマートフォン向けレイアウト */
 @media screen and (max-width: 670px) {
 
@@ -130,8 +130,3 @@ header {
 .site-text {
   font-size: 3rem;
 }
-
-.button {
-  display: none;
-}
-
