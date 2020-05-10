@@ -112,6 +112,19 @@ body {
   min-width: 460px;
 }
 
+.site-title {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.intro {
+  width: 100%;
+  padding-left: 0;
+  position: absolute;
+  bottom: 0;
+  left: 320px;
+}
+
 .menu-icon {
   list-style: none;
 }
@@ -125,3 +138,6 @@ header {
 .site-text {
   font-size: 3rem;
 }
+
+
+
