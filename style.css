@@ -108,13 +108,17 @@ body {
   font: 0.6rem caption;
   margin-left: 0;
   padding-left: 0;
-  width: 100%;
+  width: 350px;
   min-width: 460px;
 }
 
 .site-title {
   margin-top: 30px;
   width: 100%;
+}
+
+.inner {
+  text-align: right;
 }
 
 .intro {
@@ -138,6 +142,4 @@ header {
 .site-text {
   font-size: 3rem;
 }
-
-
 
