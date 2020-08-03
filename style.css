@@ -6,19 +6,16 @@ body {
   color: #808080;
   font: 2rem caption;
   font-size: 0.7rem;
-  background-size: cover;
   background-color: #000;
-  padding: 30px 100px;
-  height: 110vh;
+  margin: 0;
+  padding: 0;
+  height: 85vh;
 }
 
-header {
-  margin-right: 10px;
-}
 
 .button {
   float: right;
-  margin-right: -25px;
+  margin-right: 100px;
 }
 
 
@@ -37,32 +34,25 @@ header {
   opacity: 0.6;
 }
 
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
+.button:visited {
+  color: gray;
 }
 
 .site-title {
-  margin-right: 300px;
+  margin-right: 500px;
   position: relative;
   max-width: 1170px
 }
 
 .intro {
   margin-top: 300px;
-  font-family: serif;
   float: right;
   position: absolute;
-  bottom: 100px;
-  left: 310px;
+  bottom: 40px;
+  left: 360px;
 }
 
-.site-pic {
 
-}
 
 .skills {
   margin-bottom: 20px;
@@ -77,19 +67,14 @@ header {
   margin-top: 30px;
 }
 
-.title-text {
-  margin-top: 20px;
-  padding-top: 20px
-}
-
 .title-text li {
   list-style: none;
 }
 
 .title-text h1 {
-  margin-bottom: 3px;
+  margin-bottom: 0;
   font-size: 2rem;
-  font-family: serif;
+  font-weight: lighter;
 }
 
 .inner li {
@@ -97,49 +82,83 @@ header {
   list-style: none;
 }
 
-/* スマートフォン向けレイアウト */
-@media screen and (max-width: 670px) {
-
-* {
-  box-sizing: border-box;
+.site-pic {
+  margin-top: 80px;
+  margin-left: 50px;
+  width: 450px;
+  height: 570px;
+  background-image: url(images2/shiguihara.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+footer {
+  display: none;
+}
+
+/* スマートフォン向けレイアウト */
+@media screen and (max-width: 576px) {
+
+
 body {
+  margin: 0;
+  padding: 0;
   font: 0.6rem caption;
-  margin-left: 0;
-  padding-left: 0;
-  width: 350px;
-  min-width: 460px;
 }
 
 .site-title {
-  margin-top: 30px;
+  margin-top: 50px;
   width: 100%;
 }
 
-.inner {
-  text-align: right;
+header {
+  display: none;
 }
+
+
 
 .intro {
   width: 100%;
   padding-left: 0;
   position: absolute;
-  bottom: 0;
+  bottom: -80px;
   left: 320px;
 }
 
-.menu-icon {
-  list-style: none;
+.site-pic {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 400px;
+  height: 520px;
+  background-image: url(images2/shiguihara.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-header {
-  position: relative;
-  background-color: #000;
-  width: 100%;
+.buttons {
+  text-align: center;
+  margin-top: 165px;
 }
 
-.site-text {
-  font-size: 3rem;
+
+.buttons a {
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 65px;
+  padding: 0 50px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
 }
 
+.buttons a:hover {
+  opacity: 0.6;
+}
+
+.buttons:visited {
+  color: gray;
+}
+
+
+}
