@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+ul {
+  padding: 0;
+}
+
 body {
   color: #808080;
   font: 2rem caption;
@@ -22,7 +26,6 @@ body {
 .button a {
   cursor: pointer;
   text-decoration: none;
-  line-height: 65px;
   padding: 0 25px;
   color: white;
   display: block;
@@ -92,22 +95,34 @@ body {
   background-size: cover;
 }
 
-footer {
-  display: none;
-}
+
 
 /* スマートフォン向けレイアウト */
 @media screen and (max-width: 576px) {
+  
+ * {
+  box-sizing: border-box;
+} 
 
 
 body {
-  margin: 0;
+  margin: 65px;
   padding: 0;
   font: 0.6rem caption;
+  overflow: hidden;
+}
+
+.title-text h1 {
+  font-size: 1.3rem;
+}
+
+.title-text li {
+  font-size: 0.3rem;
 }
 
 .site-title {
-  margin-top: 50px;
+  margin-top: 120px;
+  margin-left: -15px;
   width: 100%;
 }
 
@@ -119,17 +134,15 @@ header {
 
 .intro {
   width: 100%;
-  padding-left: 0;
   position: absolute;
-  bottom: -80px;
-  left: 320px;
+  bottom: -60px;
+  left: 120px;
 }
 
 .site-pic {
-  margin-top: 20px;
-  margin-left: 10px;
-  width: 400px;
-  height: 520px;
+  margin-left: -80px;
+  width: 280px;
+  height: 400px;
   background-image: url(images2/shiguihara.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -144,21 +157,21 @@ header {
 .buttons a {
   cursor: pointer;
   text-decoration: none;
-  line-height: 65px;
-  padding: 0 29px;
+  padding: 0 15px;
   color: white;
   display: block;
   float: left;
   transition: all 0.5s;
 }
 
-.buttons a:hover {
-  opacity: 0.6;
-}
-
 .buttons:visited {
   color: gray;
 }
+
+ul {
+  padding: 0;
+}
+
 
 
 }
