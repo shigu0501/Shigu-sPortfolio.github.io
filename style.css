@@ -22,7 +22,6 @@ body {
   margin-right: 100px;
 }
 
-
 .button a {
   cursor: pointer;
   text-decoration: none;
@@ -135,7 +134,7 @@ header {
 .intro {
   width: 100%;
   position: absolute;
-  bottom: -60px;
+  bottom: -30px;
   left: 120px;
 }
 
