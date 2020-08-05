@@ -17,6 +17,8 @@ body {
 }
 
 
+
+
 .button {
   float: right;
   margin-right: 100px;
@@ -105,7 +107,7 @@ body {
 
 
 body {
-  margin: 30px;
+  margin-left: 30px;
   padding: 0;
   font: 0.6rem caption;
   overflow: hidden;
@@ -120,10 +122,7 @@ body {
 }
 
 .site-title {
-  margin-top: 65px;
-  margin-left: -15px;
   width: 100%;
-  margin-top: -50px;
 }
 
 header {
@@ -140,26 +139,26 @@ header {
 }
 
 .site-pic {
-  margin-left: -80px;
   width: 280px;
   height: 400px;
   background-image: url(images2/shiguihara.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  margin-left: -40px;
 }
 
 .buttons {
   text-align: center;
-  margin-top: 120px;
+  margin-top: 165px;
 }
 
 
 .buttons a {
   cursor: pointer;
   text-decoration: none;
-  padding: 0 15px;
+  padding: 0 18px;
   color: white;
-  display: block;
+  display: inline;
   float: left;
   transition: all 0.5s;
 }
@@ -172,6 +171,8 @@ ul {
   padding: 0;
 }
 
-
+.inners {
+  padding: 0 50px;
+}
 
 }
