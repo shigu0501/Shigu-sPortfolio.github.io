@@ -1,178 +1,133 @@
-* {
-  box-sizing: border-box;
-}
+@charset "UTF-8";
 
-ul {
-  padding: 0;
+/* 全体 */
+html {
+    font-size: 62.5%;
 }
 
 body {
-  color: #808080;
-  font: 2rem caption;
-  font-size: 0.7rem;
-  background-color: #000;
-  margin: 0;
-  padding: 0;
-  height: 85vh;
+    padding: 30px;
+    background-color: #333;
+    color: #666;
+    font-size: 1.2rem;
+    font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+a:link a:visited, a:hover, a:active {
+    color: #7C5119;
+    text-decoration: none;
+}
+
+/* アイテム全体 */
+.item {
+    width: 180px;
+    margin-bottom: 4px;
+    padding: 8px;
+    border-bottom: 3px solid;
+    background-color: #1A1A1A;
+    box-shadow: ;
+}
+
+.item .image {
+    display: block;
+    width: 100%;
+}
+
+.item .category {
+    margin: 15px 9px 10px;
+    color: #aaa;
+    letter-spacing: 1px;
+    font-family: "Trebuchet M5", "Hiragino Kaku Gothic ProN", Meiryo;
+}
+
+.item .description {
+    margin: 10px;
+    line-height: 1.5;
+}
+
+.item > a {
+    display: block;
+    margin: -8px -8px 4px;
+    padding: 8px 8px 4px;
+    border-radius: inherit;
+    color: #aaa;
+    transition: all 0.5s;
+}
+
+.item > a:hover {
+    box-shadow: 0 0 6px -1px #666;
+    opacity: 0.6;
+}
+
+/* プロダクト */
+.item-pd {
+    width: 364px;
 }
 
 
-
-
-.button {
-  float: right;
-  margin-right: 100px;
-}
-
-.button a {
-  cursor: pointer;
-  text-decoration: none;
-  padding: 0 25px;
-  color: white;
-  display: block;
-  float: left;
-  transition: all 0.5s;
-}
-
-.button a:hover {
-  opacity: 0.6;
-}
-
-.button:visited {
-  color: gray;
-}
-
-.site-title {
-  margin-right: 500px;
-  position: relative;
-  max-width: 1170px
-}
-
-.intro {
-  margin-top: 300px;
-  float: right;
-  position: absolute;
-  bottom: 40px;
-  left: 360px;
+/* フォトグラフ */
+.item-photograph,
+.item-photograph .category::before {
+    border-color: #FFF100;
 }
 
 
+/* 自己紹介 */
+.header {
+    padding: 25px 0;
+    border-bottom: none;
+    text-align: center;
+}
+
+.nav {
+    margin: 35px auto 10px;
+}
+
+.nav-item {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about {
+    font-size: 0.4rem;
+    list-style: none;
+    text-align: left;
+}
 
 .skills {
-  margin-bottom: 20px;
-  opacity: 0.5;
+    
+    margin: 1rem 0;
 }
 
-.froms {
-  line-height: 30px;
+.berth {
+    margin-bottom: 1rem;
 }
 
 .from {
-  margin-top: 30px;
+    margin-bottom: 2rem;
 }
-
-.title-text li {
-  list-style: none;
-}
-
-.title-text h1 {
-  margin-bottom: 0;
-  font-size: 2rem;
-  font-weight: lighter;
-}
-
-.inner li {
-  display: inline-block;
-  list-style: none;
-}
-
-.site-pic {
-  margin-top: 80px;
-  margin-left: 50px;
-  width: 450px;
-  height: 570px;
-  background-image: url(images2/shiguihara.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-
-/* スマートフォン向けレイアウト */
-@media screen and (max-width: 576px) {
-  
- * {
-  box-sizing: border-box;
-} 
-
-
-body {
-  margin-left: 30px;
-  padding: 0;
-  font: 0.6rem caption;
-  overflow: hidden;
-}
-
-.title-text h1 {
-  font-size: 1.3rem;
-}
-
-.title-text li {
-  font-size: 0.3rem;
-}
-
-.site-title {
-  width: 100%;
-}
-
-header {
-  display: none;
-}
-
-
 
 .intro {
-  width: 100%;
-  position: absolute;
-  bottom: -30px;
-  left: 170px;
-}
-
-.site-pic {
-  width: 280px;
-  height: 400px;
-  background-image: url(images2/shiguihara.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-left: -40px;
-}
-
-.buttons {
-  text-align: center;
-  margin-top: 100px;
+    font-size: 0.2rem;
 }
 
 
-.buttons a {
-  cursor: pointer;
-  text-decoration: none;
-  padding: 0 18px;
-  color: white;
-  display: inline;
-  float: left;
-  transition: all 0.5s;
+/* レスポンシブデザイン */
+@media screen and (max-width: 768px) {
+
+body {
+    margin: 0;
 }
 
-.buttons:visited {
-  color: gray;
+.item {
+    width: 100%;
 }
 
-ul {
-  padding: 0;
-}
 
-.inners {
-  padding: 0 45px;
-}
 
-}
+}/* end */
