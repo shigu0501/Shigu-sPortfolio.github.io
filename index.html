@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>グリッドレイアウト</title>
+    <link rel="stylesheet" href="css/newstyle.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+    <div class="wrapper">
+    <!--ここから自己紹介-->
+    <header class="header item item-me">
+                <a href="#">
+                    <p class="trim-image-to-circle"></p>
+                </a>
+                <ul class="about">
+                    <h1>Ihara Shigu</h1>
+                    
+                    <li class="skills">ProductDesign / Photograph</li>
+                    <li class="berth">96' 5 1</li>
+                    <li class="from">Osaka</li>
+                    <li class="intro">
+                        I'm 24 years old, and was born in japan.
+                    <br>I love design and like photography such
+                    as<br>Landscapes and architectures.
+                    </li>
+                </ul>
+    </header>
+
+    <!--ここからプロダクト-->
+    <section class="item item-pd">
+        <a href="#">
+            <img class="image" src="images2/untitled.125.jpg" alt="ホッチキス">
+            <div class="category">STAPLER</div>
+            <p class="description">#3D Modeling<br>#Rhinoceros<br>#Rendering<br>#Keyshot
+                <br>#ProductDesign</p>
+        </a>
+    </section>
+    <section class="item item-pd">
+        <a href="#">
+            <img class="image" src="images2/IMG_101.JPG" alt="パーツ">
+            <div class="category">PARTS</div>
+            <p class="description">#3D Modeling<br>#Rhinoceros<br>#Rendering<br>#Keyshot
+                <br>#ProductDesign</p>
+        </a>
+    </section>
+    <section class="item item-pd">
+        <a href="#">
+            <img class="image" src="images2/untitled.227.jpg" alt="ヘッドフォン">
+            <div class="category">HEADPHONE</div>
+            <p class="description">#3D Modeling<br>#Rhinoceros<br>#Rendering<br>#Keyshot
+                <br>#ProductDesign</p>
+        </a>
+    </section>
+    <section class="item item-pd">
+        <a href="#">
+            <img class="image" src="images2/untitled.318.jpg" alt="イチョウテーブル">
+            <div class="category">GINGKO TABLE</div>
+            <p class="description">#3D Modeling<br>#Rhinoceros<br>#Rendering<br>#Keyshot
+                <br>#ProductDesign</p>
+        </a>
+    </section>
+
+    <!--ここからフォトグラフ-->
+    <section class="item item-photograph">
+        <a href="#">
+            <img class="image" src="images1/2bcad9be9e035f6e-photo.JPG" alt="ベニス">
+            <div class="category">VENICE</div>
+            <p class="description">#Iphone5s<br>#Photoshop<br>#Photograph</p>
+        </a>
+    </section>
+    <section class="item item-photograph">
+        <a href="#">
+            <img class="image" src="images1/85b03ffb60b886c7-photo.JPG" alt="コペンハーゲン">
+            <div class="category">COPENHAGEN</div>
+            <p class="description">#Iphone5s<br>#Photoshop<br>#Photograph</p>
+        </a>
+    </section>
+    <section class="item item-photograph">
+        <a href="#">
+            <img class="image" src="images1/IMG_0258.JPG" alt="シドニー">
+            <div class="category">SYDNEY</div>
+            <p class="description">#IphoneX<br>#Photoshop<br>#Photograph</p>
+        </a>
+    </section>
+    <section class="item item-photograph">
+        <a href="#">
+            <img class="image" src="images1/IMG_0390.JPG" alt="シドニー">
+            <div class="category">SYDNEY</div>
+            <p class="description">#IphoneX<br>#Photoshop<br>#Photograph</p>
+        </a>
+    </section>
+    <section class="item item-photograph">
+        <a href="#">
+            <img class="image" src="images1/IMG_0549.JPG" alt="メルボルン">
+            <div class="category">MELBOURNE</div>
+            <p class="description">#IphoneX<br>#Photoshop<br>#Photograph</p>
+        </a>
+    </section>
+    <section class="item item-photograph">
+        <a href="#">
+            <img class="image" src="images1/IMG_2215.JPG" alt="プサン">
+            <div class="category">BUSAN</div>
+            <p class="description">#IphoneX<br>#Photoshop<br>#Photograph</p>
+        </a>
+    </section>
+
+    </div>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.0/masonry.pkgd.js"></script>
+    <script>
+        new Masonry('.wrapper', {
+            itemSelecter: '.item',
+            columnWidth: 180,
+            gutter: 4
+        });
+    </script>
+</body>
+</html>
