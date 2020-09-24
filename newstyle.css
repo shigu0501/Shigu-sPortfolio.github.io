@@ -30,7 +30,7 @@ a:link a:visited, a:hover, a:active {
     padding: 8px;
     border-bottom: 3px solid;
     background-color: #1A1A1A;
-    box-shadow: ;
+    box-shadow: inherit;
 }
 
 .item .image {
@@ -99,6 +99,11 @@ a:link a:visited, a:hover, a:active {
     text-align: left;
 }
 
+.about > h1 {
+    font-weight: inherit;
+    margin-bottom: 2rem;
+}
+
 .skills {
     
     margin: 1rem 0;
@@ -115,6 +120,7 @@ a:link a:visited, a:hover, a:active {
 .intro {
     font-size: 0.2rem;
 }
+
 
 
 /* レスポンシブデザイン */
